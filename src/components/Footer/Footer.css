@@ -1,16 +1,24 @@
-.footer {
+footer {
     width: 100vw;
-    padding: 50px;
     height: 454px;
+    padding-top: 85px;
     background-color: #1f1f1f;
     color: #ffffff;
+    align-content: space-between;
+}
+
+.geral {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    /* align-items: center; */
+    justify-content: space-between;
+    gap: 10rem;
 }
 
 .dig-logo {
@@ -29,7 +37,6 @@
     line-height: 25px;
     display: flex;
     text-align: left;
-    /* gap: 400px; */
 }
 
 .dig-logo .redesLogo {
@@ -55,36 +62,6 @@
     gap: 5rem;
 }
 
-.container-infos .listaInfos1 {
-    width: 135px;
-    height: 278px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 38px;
-    text-align: left;
-    list-style-type: none;
-}
-
-.container-infos .listaInfos2 {
-    width: 96px;
-    height: 240px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 38px;
-    text-align: left;
-    list-style-type: none;
-}
-
-.container-infos .listaInfos3 {
-    width: 233px;
-    height: 168px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 38px;
-    text-align: left;
-    list-style-type: none;
-}
-
 .container-infos h3 {
     width: 95px;
     height: 22px;
@@ -94,6 +71,62 @@
     line-height: 21.78px;
     text-align: left;
 }
+
+.container-infos ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.listainfos1 {
+    width: 135px;
+    height: 278px;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.listainfos2 {
+    width: 96px;
+    height: 240px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.listainfos3 {
+    width: 233px;
+    height: 168px;
+    /* gap: 30px; */
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.listainfos1 ul {
+    width: 135px;
+    height: 228px;
+}
+
+.listainfos2 ul {
+    width: 96px;
+    height: 190px;
+}
+
+.listainfos3 ul p {
+    width: 233px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+}
+
 /* Fim do "container" de informações */
 /* 
 .container-infos .topicos1 {
@@ -106,7 +139,7 @@
     text-align: left;
 }
 
-.container-infos .listaInfos2 .topicos2 {
+.container-infos .listainfos2 .topicos2 {
     width: 96px;
     height: 22px;
     gap: 0px;
@@ -132,6 +165,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: end;
+    margin-top: 20px;
 }
 
 .digcoll p {
@@ -144,4 +178,5 @@
 .digcoll hr {
     width: 90%;
     height: 1px;
+    margin-top: 5px;
 }
