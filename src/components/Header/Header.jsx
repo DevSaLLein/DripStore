@@ -3,6 +3,7 @@ import "./Header.css";
 import headerlogo from "./../../../public/svgs/logo-header.svg";
 import minicart from "./../../../public/svgs/mini-cart.svg";
 import lupa from "./../../../public/svgs/Search.svg";
+import ellipse from "./../../../public/svgs/ellipse.svg";
 
 import { Navigator } from '../Navigator/Navigator';
 
@@ -24,12 +25,16 @@ export function Header() {
                     <button>Entrar</button>
                 </div>
 
-                <img className="cart-img" src={minicart} alt="mini cart logo" />
+                <div className="cart-img-container">
+                    <div className="ellipse-container">
+                        <span>2</span>
+                        <img src={ellipse} alt="" />
+                    </div>
+                    <img className="cart-img" src={minicart} alt="mini cart logo" />
+                </div>
             </section>
 
             <Navigator className="navigator-container" />
         </header>
     );
 }
-
-

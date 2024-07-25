@@ -30,6 +30,7 @@
 }
 
 body {
+    overflow-x: hidden;
     width: 100vw;
     min-height: 100vh;
     background: #e5e5e5;

@@ -3,10 +3,5 @@
     width: 332px;
     height: 60px;
     border-radius: 4px;
-}
-
-.search-product-container option span {
-    font-weight: 700;
-
-    background-color: pink;
+    text-indent: 10px;
 }

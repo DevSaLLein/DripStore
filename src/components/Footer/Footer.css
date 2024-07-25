@@ -18,7 +18,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 10rem;
+    gap: 8.5rem;
 }
 
 .dig-logo {

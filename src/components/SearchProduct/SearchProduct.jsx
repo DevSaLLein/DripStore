@@ -4,7 +4,7 @@ export function SearchProduct() {
     return (
         <select className='search-product-container'>
             <option>
-                <span>Ordernar por:</span> mais relevantes
+                <span >Ordernar por:</span> mais relevantes
             </option>
             <option>
                 <span>Ordernar por:</span> mais relevantes

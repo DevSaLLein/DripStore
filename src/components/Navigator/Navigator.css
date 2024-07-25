@@ -23,4 +23,7 @@
     font-weight: 800;
     text-decoration: underline;
     color: var(--primary);
+
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
 }

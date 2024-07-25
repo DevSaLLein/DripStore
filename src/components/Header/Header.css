@@ -71,5 +71,24 @@
     position: relative;
 }
 
+.ellipse-container {
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+}
+
+.ellipse-container > span {
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.ellipse-container > img {
+    transform: scale(1.1);
+}
+
 @media screen and (max-width: 768px) {
 }

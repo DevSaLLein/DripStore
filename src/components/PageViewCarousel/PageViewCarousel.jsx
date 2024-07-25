@@ -22,33 +22,33 @@ export function PageViewCarousel() {
             >
                 <SwiperSlide>
                     <figure>
-                        <img src="/public/White-Sneaker.png" />
+                        <img src="/public/IMG/White-Sneaker.png" />
                     </figure>
                 </SwiperSlide>
                 <SwiperSlide>
                     <figure>
-                        <img src="/public/White-Sneaker.png" />
+                        <img src="/public/IMG/White-Sneaker.png" />
                     </figure>
                 </SwiperSlide>
                 <SwiperSlide>
                     <figure>
-                        <img src="/public/White-Sneaker.png" />
+                        <img src="/public/IMG/White-Sneaker.png" />
                     </figure>
                 </SwiperSlide>
             </Swiper>
 
             <div className='thumb-images-container'>
                 <figure className='active'  >
-                    <img src="/public/White-Sneaker.png" />
+                    <img src="/public/IMG/White-Sneaker.png" />
                 </figure>
                 <figure>
-                    <img src="/public/White-Sneaker.png" />
+                    <img src="/public/IMG/White-Sneaker.png" />
                 </figure>
                 <figure>
-                    <img src="/public/White-Sneaker.png" />
+                    <img src="/public/IMG/White-Sneaker.png" />
                 </figure>
                 <figure>
-                    <img src="/public/White-Sneaker.png" />
+                    <img src="/public/IMG/White-Sneaker.png" />
                 </figure>
             </div>
         </div>

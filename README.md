@@ -68,22 +68,32 @@ do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 │    │    │   ├── product-thumb-3.jpeg
 │    │    │   ├── product-thumb-4.jpeg
 │    │    │   ├── product-thumb-5.jpeg
+│    │    │
+│    │    ├── White-Sneaker.png
+│    │
 │    │
 │    ├── styles/
 │    │    default.css
 │    │
 │    ├── svgs/
-│    │    ├── arrow-left.svg
 │    │    ├── arrow-right.svg
+│    │    ├── blusaE.svg
+│    │    ├── calça.svg
+│    │    ├── dois.svg
+│    │    ├── ellipse.svg
 │    │    ├── facebook.svg
+│    │    ├── fone.svg
 │    │    ├── instagram.svg
 │    │    ├── logo-footer.svg
 │    │    ├── logo-header.svg
 │    │    ├── mini-cart.svg
+│    │    ├── Ornament.svg
+│    │    ├── Search.svg
 │    │    ├── star-active.svg
 │    │    ├── star-desactive.svg
 │    │    ├── star-icon.svg
 │    │    ├── star-white.svg
+│    │    ├── teniss.svg
 │    │    ├── twitter.svg
 │
 ├── src/
@@ -98,6 +108,10 @@ do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 │    │    │   ├── FeaturedCollections.css
 │    │    │   ├── FeaturedCollections.jsx
 │    │    │
+│    │    ├── FeaturedCollectionsIcons/
+│    │    │   ├── FeaturedCollectionsIcons.css
+│    │    │   ├── FeaturedCollectionsIcons.jsx
+│    │    │
 │    │    ├── FilterGroup/
 │    │    │   ├── FilterGroup.css
 │    │    │   ├── FilterGroup.jsx
@@ -109,6 +123,10 @@ do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 │    │    ├── Header/
 │    │    │   ├── Header.css
 │    │    │   ├── Header.jsx
+│    │    │
+│    │    ├── HomePageCarousel/
+│    │    │   ├── HomePageCarousel.css
+│    │    │   ├── HomePageCarousel.jsx
 │    │    │
 │    │    ├── ProductCard/
 │    │    │   ├── ProductCard.css
@@ -131,10 +149,17 @@ do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 │    │    │   ├── Section.jsx
 │    │
 │    ├── pages/
+│    │
+│    │    ├── Products/
+│    │    │   ├── Products.css
+│    │    │    ├── Products.jsx
+│    │    │
+│    │    ├── ProductViewPage/
+│    │    │   ├── ProductViewPage.css
+│    │    │   ├── ProductViewPage.jsx
+│    │    │
 │    │    ├── HomePage.jsx
-│    │    ├── NotFound.jsx
-│    │    ├── ProductListingPage.jsx
-│    │    ├── ProductViewPage.jsx
+│    │    ├── NotFoundPage.jsx
 │    │
 │    ├── routes/
 │    │    ├── AppRoutes.jsx
@@ -155,11 +180,11 @@ do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 
 ## Membros ativos do projeto
 
-|                                               Profile                                                |     Nome Completo     |                                                                                                                                                                                                                                                                                                          |
-| :--------------------------------------------------------------------------------------------------: | :-------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|     [<img src="https://github.com/DevSaLLein.png" height="90px">](https://github.com/DevSaLLein)     | Isaac Lima de Andrade | [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white"/>](https://github/DevSaLLein) <br/> [<img src="https://img.shields.io/badge/-Instagram-hotpink?style=for-the-badge&logo=instagram&logoColor=white"/>](https://www.instagram.com/http.zaclimaaxs/) |
-| [<img src="https://github.com/LucasMarcelo85.png" height="90px">](https://github.com/LucasMarcelo85) | Lucas Marcelo N Souza | <div > <a href="https://github.com/LucasMarcelo85/Meu-portfolio" target="_blank"><img alt="" src="https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=yellow&style=for-the-badge" style="vertical-align:center" width="120" /></a> <br> [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white" align="center" width="120"/>](https://github.com/LucasMarcelo85)  <br> <a href="https://www.linkedin.com/in/marcelo-souza-882aab316" target="_blank" align="center" width="120"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center" width="120"></a> </div>                                                                                 |
-|   [<img src="https://github.com/MatheusDeV55.png" height="90px">](https://github.com/MatheusDeV55)   |                       |                                                                                  [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white"/>](https://github/MatheusDeV55)                                                                                  |
+|                                               Profile                                                |       Nome Completo        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| :--------------------------------------------------------------------------------------------------: | :------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|     [<img src="https://github.com/DevSaLLein.png" height="90px">](https://github.com/DevSaLLein)     |   Isaac Lima de Andrade    |                                                                                                                                                                                                  [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white"/>](https://github.com/DevSaLLein) <br/> [<img src="https://img.shields.io/badge/-Instagram-hotpink?style=for-the-badge&logo=instagram&logoColor=white"/>](https://www.instagram.com/http.zaclimaaxs/)                                                                                                                                                                                                   |
+| [<img src="https://github.com/LucasMarcelo85.png" height="90px">](https://github.com/LucasMarcelo85) |   Lucas Marcelo N Souza    | <div > <a href="https://github.com/LucasMarcelo85/Meu-portfolio" target="_blank"><img alt="" src="https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=yellow&style=for-the-badge" style="vertical-align:center" width="120" /></a> <br> [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white" align="center" width="120"/>](https://github.com/LucasMarcelo85) <br> <a href="https://www.linkedin.com/in/marcelo-souza-882aab316" target="_blank" align="center" width="120"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center" width="120"></a> </div> |
+|   [<img src="https://github.com/MatheusDeV55.png" height="90px">](https://github.com/MatheusDeV55)   | Matheus Gabriel R de Paula |                                                                                                                                                                                                                                                                                   [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white"/>](https://github.com/MatheusDeV55)                                                                                                                                                                                                                                                                                    |
 
 ## Licença
 

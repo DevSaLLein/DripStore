@@ -6,6 +6,7 @@ import { Layout } from './../components/Layout/Layout';
 import { HomePageCarousel } from "../components/HomePageCarousel/HomePageCarousel";
 
 import { Article } from './../components/Article/Article';
+import { FeaturedCollectionsIcons } from './../components/FeaturedCollectionsIcons/FeaturedCollectionIcons';
 
 export function HomePage() {
 
@@ -76,7 +77,11 @@ export function HomePage() {
                 <FeaturedCollections />
             </Section>
 
-            <Section title="Produtos em alta">
+            <Section title="Coleções em destaque" titleAlign="center"> 
+                <FeaturedCollectionsIcons/>
+            </Section>
+
+            <Section title="Produtos em alta" link="ver todos">
                 <ProductListening>
                     {produtos.map((produto, key) => <ProductCard key={key} produto={produto} />)}
                 </ProductListening>

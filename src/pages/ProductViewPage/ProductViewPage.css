@@ -1,0 +1,16 @@
+.product-view-page-container {
+    margin-top: 30px;
+}
+
+.product-nav-container {
+    position: relative;
+    color: var(--dark-gray-2);
+    left: 150px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.product-nav-container span {
+    font-weight: 700;
+}
