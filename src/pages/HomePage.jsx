@@ -10,9 +10,11 @@ import { FeaturedCollectionsIcons } from './../components/FeaturedCollectionsIco
 
 export function HomePage() {
 
+
+
     const produtos = [
         {
-            name: "Nome do produto",
+            name: "Nome do produtaao",
             image: "/IMG/product-images/produc-image-1.jpeg",
             price: 200,
             priceDiscount: 149.9
