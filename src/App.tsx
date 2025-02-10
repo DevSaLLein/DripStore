@@ -1,4 +1,6 @@
+import { Button } from "./components/button/Button"
+
 export const App = () => {
 
-  return <> Ola </>
+  return <> <Button textButton = { "texto do button" } /> </>
 }
